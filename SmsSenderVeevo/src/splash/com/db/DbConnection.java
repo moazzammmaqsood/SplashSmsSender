@@ -1,5 +1,7 @@
 package splash.com.db;
 
+import java.sql.ResultSet;
+
 public class DbConnection {
 	
 	String driverClass ; 
@@ -47,8 +49,7 @@ public class DbConnection {
 		this.connectionString = connectionString;
 	}
 	
-	
-	
+
 	
 	
 
